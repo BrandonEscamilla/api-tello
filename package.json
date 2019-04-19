@@ -1,0 +1,25 @@
+{
+  "name": "tello-middleware",
+  "version": "1.0.0",
+  "description": "API for getting in touch with Tello Drone",
+  "main": "telloApi.js",
+  "scripts": {
+    "start": "node telloApi.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "Drone",
+    "API",
+    "Machine",
+    "Learning"
+  ],
+  "author": "Brandon Escamilla",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  }
+}
